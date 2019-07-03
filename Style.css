@@ -2,56 +2,59 @@ body {
     padding: 0 10% 0 10%;
 }
 
-.container{
-    padding: 0 10% 0 10%;
-}
-
-.row{
+.row {
     display: flex;
     width: 100%;
-    position: relative;
 }
 
-.row ::after{
+.header {
+    background-color: rgb(3, 56, 3);
+    /* background-image: url('./Images/backG.jpg'); */
+}
+
+.row ::after {
     display: block;
     clear: both;
     content: "";
 }
-.col-in{
-    display: inline;
-}
-.col-1{ width: 8.33%;}
-.col-2{ width: 16.66%;}
-.col-3{ width: 25%;}
-.col-4{ width: 33.33%;}
-.col-5{ width: 41.66%;}
-.col-6{ width: 50%;}
-.col-7{ width: 58.33%;}
-.col-8{ width: 66.66%;}
-.col-9{ width: 75%;}
-.col-10{ width: 83.33%;}
-.col-11{ width: 91.66%;}
-.col-12{ width: 100%;}
 
-*{
+.col-1 { width: 8.33%;}
+.col-2 { width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 { width: 41.66%;}
+.col-6 { width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 { width: 91.66%;}
+.col-12 {width: 100%;}
+
+* {
     box-sizing: border-box;
 }
 
-.text{
-    /* color: white; */
+.text {
+    color: white;
+}
+
+.avatar {
+    width: 230px;
+    height: 250px;
+}
+
+h1 {
+    margin: 20px 0 0 50px;
+}
+
+h3 {
+    margin: 0 0 0 50px;
 }
 
 p {
     padding-right: 20px;
-}
-
-.avatar{
-    width: 230px;
-    height: 250px;
-    border: 0px solid rgb(124, 1, 1);
-}
-
-
-[class*="col-"]{
-    justify-content: space-around;
+    padding-bottom: 100px;
+    display: block;
+    margin: 16px 0 0 50px;
 }
