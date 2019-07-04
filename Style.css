@@ -18,18 +18,62 @@ body {
     content: "";
 }
 
-.col-1 { width: 8.33%;}
-.col-2 { width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 { width: 41.66%;}
-.col-6 { width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 { width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.squares1 {
+    margin-top: 50px;
+}
+
+.squares2 {
+    margin-top: 50px;
+    margin-left: 100px
+}
 
 * {
     box-sizing: border-box;
@@ -40,21 +84,95 @@ body {
 }
 
 .avatar {
-    width: 230px;
+    width: 235px;
     height: 250px;
+    position: relative;
+    top: 35px;
+    border: 4px solid rgb(3, 56, 3);
 }
 
-h1 {
+
+
+h1.text {
     margin: 20px 0 0 50px;
+
 }
 
-h3 {
+h3.text {
     margin: 0 0 0 50px;
 }
 
-p {
+p.text {
     padding-right: 20px;
     padding-bottom: 100px;
     display: block;
     margin: 16px 0 0 50px;
+}
+
+ul {
+    margin-left: -25px;
+}
+
+.col-3-spacing {
+    padding-right: 50px;
+}
+
+.small-heading {
+    font-size: 15px;
+}
+
+.normal-txt {
+    font-size: 15px;
+}
+
+.notch {
+    width: 50px;
+    height: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(3, 56, 3);
+}
+
+.line {
+
+    margin-top: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(3, 56, 3);
+}
+
+.footer-row {
+    background-color: rgb(3, 56, 3);
+    margin-top: 100px;
+
+}
+
+.footer-p {
+    color: white;
+    text-align: center;
+}
+
+.line-2 {
+    size: 4px;
+    color: white;
+    width: 75%;
+}
+
+progress {
+    margin-top: 22px;
+}
+
+progress {
+    border-radius: 2px;
+    width: 80%;
+    height: 6px;
+    margin-left: -11.5%;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(144, 144, 144);
+    border-radius: 2px;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 2px;
 }
