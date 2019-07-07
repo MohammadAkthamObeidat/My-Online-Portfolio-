@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-    background-image: url(images/backG.jpg);
+    background-image: url("./Images/backG.jpg");
     background-size: 700px
 }
 
@@ -165,7 +165,7 @@ ul {
 
 .footer-row {
     align-items: center;
-    background-image: url(images/backG.jpg);
+    background-image: url("./Images/backG.jpg");
     background-size: 400px;
     margin-top: 100px;
     height: 120px;
